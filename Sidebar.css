@@ -1,0 +1,36 @@
+/* App.css */
+.App {
+    display: flex;
+    min-height: 100vh;
+    background-color: #121212; /* Dark background for the theme */
+  }
+  
+  /* Sidebar.css */
+  .Sidebar {
+    width: 250px;
+    background-color: #1e1e1e; /* Slightly lighter shade for the sidebar */
+    color: #fff; /* White text color */
+    padding: 20px;
+  }
+  
+  .Sidebar-section {
+    margin-bottom: 20px;
+  }
+  
+  .Upload-btn {
+    background-color: #4caf50; /* Green color for the button */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Add more styles for other controls */
+  
+  /* MainContent.css */
+  .MainContent {
+    flex-grow: 1;
+    background-image: url('grid-pattern.png.jpg'); /* A grid pattern similar to the provided UI */
+    /* Add more styling */
+  }
+  
